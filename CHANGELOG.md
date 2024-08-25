@@ -1,3 +1,8 @@
+## 1.0.1 Important bug fix.
+
+* Fixed a bug that prevent the app from starting correctly.
+
+
 ## 1.0.0 Documentation.
 
 * Providing documentation for API elements.
