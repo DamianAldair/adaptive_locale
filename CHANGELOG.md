@@ -1,3 +1,8 @@
+## 0.0.2 Minor fixes
+
+* Minor fixes.
+
+
 ## 0.0.1 Initial release
 
 * Builder for wrap **MaterialApp** or **CupertinoApp**.
