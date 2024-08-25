@@ -1,3 +1,8 @@
+## 1.0.0 Documentation.
+
+* Providing documentation for API elements.
+
+
 ## 0.0.2 Minor fixes
 
 * Minor fixes.
