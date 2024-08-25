@@ -32,7 +32,9 @@ abstract class LocalePreferences {
         ? <String, dynamic>{}
         : json.decode(jsonStringPrefs) as Map<String, dynamic>;
 
-    if (mapPrefs.containsKey('current_locale')) {
+    if (!mapPrefs.containsKey('current_locale')) {
+      _currentLocale = null;
+    } else {
       final localeMap = mapPrefs['current_locale'] as Map<String, dynamic>;
       _currentLocale = Locale(
         localeMap['language_code'],

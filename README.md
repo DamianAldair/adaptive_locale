@@ -1,6 +1,10 @@
 # Adaptive Locale
 
-Inspired by [Adaptive Theme](https://pub.dev/packages/adaptive_theme)
+by [Damian Aldair](https://damianaldair.github.io).
+
+---
+
+Inspired by [Adaptive Theme](https://pub.dev/packages/adaptive_theme).
 
 The easiest way to handle **Locales** in your Flutter app. Allows you to set the **locale** dynamically and get the **locale** being used and all **supported locales**. It also preserves **locale** changes across app restarts.
 
