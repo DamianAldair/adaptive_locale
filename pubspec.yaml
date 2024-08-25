@@ -1,6 +1,7 @@
 name: adaptive_locale
 description: The easiest way to handle Locales in your Flutter app
   and preserves locale changes across app restarts.
+  Inspired by adaptive_theme.
 version: 1.0.0
 homepage: https://github.com/DamianAldair/adaptive_locale
 repository: https://github.com/DamianAldair/adaptive_locale
