@@ -18,12 +18,12 @@ class AdaptiveLocale extends StatefulWidget {
   final AdaptiveLocaleBuilder builder;
 
   const AdaptiveLocale({
-    Key? key,
+    super.key,
     this.localizationsDelegates,
     required this.supportedLocales,
     this.initialLocale,
     required this.builder,
-  }) : super(key: key);
+  });
 
   @override
   State<AdaptiveLocale> createState() => _AdaptiveLocaleState();
